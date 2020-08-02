@@ -1,0 +1,71 @@
+3004_1: 32, 100, 3
+3004_2: 128, 500, 1
+3004_3: 128, 100, 3
+3004_4: 64, 100, 3
+3004_5: 128, 100, 2
+3004_6: 128, 100, 1
+0105_1: 128, 100, 4
+
+0605_1: 128, 100, 5
+1005_1: 128, 100, 3, 0.005
+
+1305_1: 128, 100, 3, dataset 2
+1305_2: 128, 100, 4, dataset 2
+
+1405_1: 128, 100, 2, dataset 2
+1405_2: 128, 100, 1, dataset 2
+
+2005_1: 128, 100, 3, dataset 3
+2005_2: 128, 100, 1, dataset 3
+
+2105_1: 128, 100, 3, dataset 3, label num = 21
+2105_2: 128, 100, 1, dataset 3, label num = 21
+2105_3: 128, 100, 3, dataset 3, label num = 21, Adagram
+2105_4: 128, 100, 3, dataset 3, label num = 21, Leaky_Relu
+
+2205_1: 128, 100, 3, dataset 1, label num = 21
+
+2305_1: 128, 100, 3, dataset 2, label num = 21
+2305_2: 128, 100, 1, dataset 3, label num = 21, Leaky_Relu
+2305_3: 128, 100, 3, dataset 1, label num = 21, Leaky_Relu
+2305_4: 128, 100, 1, dataset 1, label num = 21, Leaky_Relu
+2305_5: 128, 100, 1, dataset 2, label num = 21, Leaky_Relu
+2305_6: 128, 100, 3, dataset 2, label num = 21, Leaky_Relu
+2305_6: 128, 100, 1, dataset 2, label num = 21
+
+2605_1: ^48, ^50, 2, dataset 2, label num = 21
+2605_2: 48, 50, 2, dataset 2, label num = 21, Leaky_Relu
+2605_3: 48, 50, 2, dataset 1, label num = 21, Leaky_Relu
+2605_4: 48, 50, 2, dataset 1, label num = 21
+
+2705_1: 48, 50, 1, dataset 1, label num = 21
+
+3005_1: 24, 50, 1, dataset 1 + GAN, label num = 28 -- 100 m
+3005_2: 24, 50, 2, dataset 1 + GAN, label num = 28
+3005_3: 24, 50, 3, dataset 1 + GAN, label num = 28
+
+3105_1: 24, 50, 1, dataset 1 + GAN, label num = 28, Leaky_Relu
+3105_2: 24, 50, 2, dataset 1 + GAN, label num = 28, Leaky_Relu
+3105_3: 24, 50, 3, dataset 1 + GAN, label num = 28, Leaky_Relu
+
+0106_1: 64, 50, 1, dataset 2 + GAN, label num = 28 -- 14000 s
+0106_2: 64, 50, 2, dataset 2 + GAN, label num = 28
+0106_3: 64, 50, 3, dataset 2 + GAN, label num = 28
+0106_4: 64, 50, 1, dataset 2 + GAN, label num = 28, Leaky_Relu
+0106_5: 64, 50, 2, dataset 2 + GAN, label num = 28, Leaky_Relu
+0106_6: 64, 50, 3, dataset 2 + GAN, label num = 28, Leaky_Relu
+
+0206_1: 80, 50, 1, dataset 3 + GAN, label num = 28 -- 13650 s
+0206_2: 80, 50, 1, dataset 3 + GAN, label num = 28, Leaky_Relu
+0206_3: 80, 50, 1, dataset 3, label num = 21, Leaky_Relu -- 8800 s
+0206_4: 80, 50, 3, dataset 3, label num = 21, Leaky_Relu -- 9800 s
+
+0306_1: 80, 50, 3, dataset 3, label num = 21 -- 7400 s
+0306_2: 80, 50, 1, dataset 3, label num = 21 -- 6500 s
+0306_3: 80, 50, 2, dataset 3, label num = 21 -- 7100 s
+0306_4: 80, 50, 2, dataset 3, label num = 21, Leaky_Relu -- 7000 s
+0306_5: 80, 50, 2, dataset 3 + GAN, label num = 28, Leaky_Relu -- 15100 s
+0306_6: 80, 50, 3, dataset 3 + GAN, label num = 28, Leaky_Relu
+
+0406_1: 80, 50, 3, dataset 3 + GAN, label num = 28
+0406_2: 80, 50, 2, dataset 3 + GAN, label num = 28
